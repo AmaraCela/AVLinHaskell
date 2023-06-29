@@ -12,4 +12,6 @@ This repository contains the implementation of AVL trees in Haskell. What is spe
 3. Using command line go to the directory and type ghci.
 4. Type :load treestrees.hs
 5. Call the methods found in the the file to run and test the ones that are needed.
+   
+
 Make sure to follow these steps in order and adjust them based on your specific operating system and repository setup.
