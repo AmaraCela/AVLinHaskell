@@ -9,7 +9,7 @@ This repository contains the implementation of AVL trees in Haskell. What is spe
   Download the appropriate GHC installer for your operating system (Windows, macOS, or Linux).
   Run the installer and follow the instructions to complete the installation.
 2. Clone the repository.
-3. Using command line go to the directory and type ghci.
+3. Using command prompt go to the directory and type ghci.
 4. Type :load treestrees.hs
 5. Call the methods found in the the file to run and test the ones that are needed.
    
