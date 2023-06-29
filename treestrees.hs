@@ -62,3 +62,15 @@ insertAVL a (Node x left right h)
                                 leftInsert = (insertAVL a left)
                                 rightInsert = (insertAVL a right) 
 
+
+inorder:: (Show a) => AVLTree a -> [a] 
+inorder EmptyTree = []
+inorder (Node a left right) = (inorder left) ++ [a] ++ (inorder right)
+    
+preorder :: (Show a) => AVLTree a -> [a] 
+preorder EmptyTree = []
+preorder (Node a left right) = [a] ++ (preorder left) ++ (preorder right)
+
+postorder :: (Show a) => AVLTree a -> [a]
+postorder EmptyTree = []
+postorder (Node a left right) = (postorder left) ++ (postorder right)  ++ [a]
